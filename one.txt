@@ -1,5 +1,11 @@
+-------------------------
 GIT COMMANDS IN ONE SHOT
-------------------------
+-------------------------
+mkdir project
+cd project
+
+ssh-keygen
+public key->copy->Github->settings->deploy key->ssh=>write permission tick...
 git init
 
 git config user.email <EMAIL>
@@ -14,7 +20,7 @@ git commit -m "SOME INITIAL COMMIT MESSAGE"
 
 git push origin main/master <BRANCH NAME>
 
-
+--------------------------------
 SOME IMPORTANT COMMANDS TO KNOW
 --------------------------------
 git branch 
