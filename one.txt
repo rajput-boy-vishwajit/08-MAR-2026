@@ -4,8 +4,8 @@ GIT COMMANDS IN ONE SHOT
 mkdir project
 cd project
 
-#ssh-keygen
-#public key->copy->Github->settings->deploy key->ssh=>write permission tick...
+# ssh-keygen
+# public key->copy->Github->settings->deploy key->ssh=>write permission tick...
 git init
 
 git config user.email <EMAIL>
