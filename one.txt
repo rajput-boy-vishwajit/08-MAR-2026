@@ -1,3 +1,5 @@
+###IMPORTANT GIT COMMANDS IN ONE SHOT###
+#---------------------------------------
 # git init
 #
 # git config user.email <EMAIL>
