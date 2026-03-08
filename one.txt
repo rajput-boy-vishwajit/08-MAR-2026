@@ -1,11 +1,23 @@
 # git init
+#
 # git config user.email <EMAIL>
 # git config user.name  <USERNAME>
 # git config --list
- 
+# 
 # git remote add origin <link of https repository>
 # git remote -v
-# 
+#
 # git add .
-# git 
-This is my 08-MAR-2026 Repository and where I have contributed in this repo.
+# git commit -m "SOME INITIAL COMMIT MESSAGE"
+#
+# git push origin main/master <BRANCH NAME>
+#
+#
+###SOME IMPORTANT COMMANDS TO KNOW###
+#
+#
+#
+#
+#
+#
+#
