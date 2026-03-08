@@ -15,7 +15,8 @@
 #
 ###SOME IMPORTANT COMMANDS TO KNOW###
 #------------------------------------
-# 
+# git branch 
+# git branch -M <Branch name Change?> 
 #
 #
 #
