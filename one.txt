@@ -13,12 +13,18 @@ git config user.name  <USERNAME>
 git config --list
  
 git remote add origin <link of https repository>
+# IF YOU BY MISTAKE ADD THE FALSE ORIGIN
+git remote remove origin #((IF YOU WANT TO REMOVE THE ALREADY ADDED ORIGIN))
 git remote -v
+
+echo "Hello" | tee index.html
+
+git status
 
 git add .
 git commit -m "SOME INITIAL COMMIT MESSAGE"
 
-git push origin main/master <BRANCH NAME>
+git push origin main <BRANCH NAME main/master>
 
 --------------------------------
 SOME IMPORTANT COMMANDS TO KNOW
