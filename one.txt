@@ -1,27 +1,27 @@
-###IMPORTANT GIT COMMANDS IN ONE SHOT###
-#---------------------------------------
-# git init
-#
-# git config user.email <EMAIL>
-# git config user.name  <USERNAME>
-# git config --list
-# 
-# git remote add origin <link of https repository>
-# git remote -v
-#
-# git add .
-# git commit -m "SOME INITIAL COMMIT MESSAGE"
-#
-# git push origin main/master <BRANCH NAME>
-#
-#
-###SOME IMPORTANT COMMANDS TO KNOW###
-#------------------------------------
-# git branch 
-# git branch -M <Branch name Change?> 
-#
-#
-#
-#
-#
-#
+GIT COMMANDS IN ONE SHOT
+------------------------
+git init
+
+git config user.email <EMAIL>
+git config user.name  <USERNAME>
+git config --list
+ 
+git remote add origin <link of https repository>
+git remote -v
+
+git add .
+git commit -m "SOME INITIAL COMMIT MESSAGE"
+
+git push origin main/master <BRANCH NAME>
+
+
+SOME IMPORTANT COMMANDS TO KNOW
+--------------------------------
+git branch 
+git branch -M <Branch name Change?> 
+
+
+
+
+
+
