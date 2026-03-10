@@ -1,3 +1,4 @@
+
 -------------------------
 GIT COMMANDS IN ONE SHOT
 -------------------------
@@ -208,4 +209,17 @@ git reset --hard <COMMIT HASH>
 
 # MERGE CONFLICTS :
 # BRANCH
-# 
+# branch 
+# *feature1
+
+git branch
+git status
+git checkout main
+git checkout feature
+git add .
+git commit -m "Add Feature1 to feature branch"
+
+git diff main
+git merge main
+
+
