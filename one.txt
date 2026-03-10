@@ -140,9 +140,49 @@ git checkout main
 # we have to chenge another branch to delete
 git branch -d feature2
 # Deleted branch feature2
-#
+
+# Adding changes in index.html <p>This is a new feature</p>
+git branch
+# *feature1
+git status
+# midified: index.html
+git commit -m "Add new feature"
+git status
+git checkout main
+git checkout feature1
+
+## MERGING CODE :
+#----------------
+# WAY 1:
+git diff <BRANCH NAME>		--- (TO COMPARE COMMITS, BRANCHES, FILES & MORE)
+git merge <BRANCH NAME>		--- (TO MERGE 2 BRANCHES)
+
+# WAY 2:
+# CREATE A PR
+
+
+## GIT MERGE CONFLICTS :
+# ----------------------
+git branch
+git diff main
+# Shows changed sentence also
+git merge main
 
 
 
+## PULL REQUEST : It lets you tell others about changes you're pushed to a branch in a repository on GitHub.
 
+## PULL COMMAND : Used to fetch and download content from a remote repo and immediately update the local repo to match that content.
+git checkout main
+git branch	--- ( *main )
+
+git pull origin main		--- ( This pull the code from GitHub and merge with local Branch )
+
+
+## RESOLVING MERGE CONFLICTS :
+# - An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+# GITDEMO
+#  >LocalRepo
+#   >index.html
+#   >README.md
 
