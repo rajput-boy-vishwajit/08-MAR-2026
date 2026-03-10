@@ -151,6 +151,8 @@ git status
 git checkout main
 git checkout feature1
 
+#==============================================================================
+
 ## MERGING CODE :
 #----------------
 # WAY 1:
@@ -182,10 +184,17 @@ git pull origin main		--- ( This pull the code from GitHub and merge with local 
 ## RESOLVING MERGE CONFLICTS :
 #-----------------------------
 # - An event that takes place when Git is unable to automatically resolve differences in code between two commits.
+
+# On Branch *main
+
 # GITDEMO
 #  >LocalRepo
 #   >index.html
+#	<p>This is a new repo.</p>
+#	<p>This is a new feature (button)</p>
 #   >README.md
+
+# 
 
 
 
@@ -202,10 +211,3 @@ git reset HEAD~1
 git reset <COMMIT HASH>
 git reset --hard <COMMIT HASH>
 
-
-#======================================================
-
-
-# MERGE CONFLICTS :
-# BRANCH
-# 
