@@ -180,9 +180,25 @@ git pull origin main		--- ( This pull the code from GitHub and merge with local 
 
 
 ## RESOLVING MERGE CONFLICTS :
+#-----------------------------
 # - An event that takes place when Git is unable to automatically resolve differences in code between two commits.
 # GITDEMO
 #  >LocalRepo
 #   >index.html
 #   >README.md
+
+
+
+## UNDOING CHANGES :
+#-------------------
+# CASE 1: Staged changes
+git reset <FILE NAME>
+git reset
+
+# CASE 2: Commited changes (for one commit)
+git reset HEAD~1
+
+# CASE 3: Commited changes (for many commits)
+git reset <COMMIT HASH>
+git reset --hard <COMMIT HASH>
 
