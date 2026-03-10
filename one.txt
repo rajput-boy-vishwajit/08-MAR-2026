@@ -1,6 +1,10 @@
 -------------------------
 GIT COMMANDS IN ONE SHOT
 -------------------------
+#==to check version and  git is installded or not
+git --version
+
+
 mkdir project
 cd project
 
@@ -8,8 +12,13 @@ cd project
 # public key->copy->Github->settings->deploy key->ssh=>write permission tick...
 git init
 
+# configure git as global
+git config --global user.name "My Name"
+git config --global user.email "someone@gmail.com"
+
 git config user.email <EMAIL>
 git config user.name  <USERNAME>
+
 git config --list
  
 git remote add origin <link of https repository>
@@ -32,7 +41,46 @@ SOME IMPORTANT COMMANDS TO KNOW
 git branch 
 git branch -M <Branch name Change?> 
 
+===================================
+##== - CREATE A FOLDER IN VS CODE
+# GITDEMO
+cd GITDEMO
+git --version
 
+## CLONE & STATUS
+git clone <SOME LINK FROM GITHUB HTTPS/SSH>
+git status
+## -GitHub repo code directly cloned downloaded into the folder (it shows subfolder, code, readme.MD)
+## -some code changes in local code 
+git status
+# - modified :
+git commit -m "
+
+# UNTRACKED - New files that git dosen't yet track
+# MODIFIED - Changed
+# STAGED   - File is ready to be committed
+# UNCHANGED - Unchanged
+
+## ADD & COMMIT 
+# ADD - Adds new or changed files in your working directory to the Git staging area.
+git add <FILE NAME>
+
+# COMMIT - it is the record of change
+git commit -m "SOME MESSAGE"
+
+## PUSH COMMAND
+# PUSH - Upload local repo contect to remote repo
+git push origin main
+
+
+## INIT COMMAND 
+# init - used to create a new git repo
+git ini
+git remote add origin <LINK>
+git remote -v <TO VERITY REMOTE>
+git branch <TO CHECK BRANCH>
+git branch -M main <to rename branch>
+git push origin main
 
 
 
