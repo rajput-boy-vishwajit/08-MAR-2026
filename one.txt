@@ -112,8 +112,35 @@ git commit -m "Add Readme"
 
 
 ## GIT BRANCHES :
+# feature 
+# master
+
+git branch					--- (TO CHECK BRANCH)
+git branch -M main				--- (TO RENAME BRANCH)
+git checkout  <BRANCH NAME WHERE TO GO>		--- (TO NEVIGATE BRANCH)
+git checkout -b <NEW BRANCH NAME CREATE AND GO> --- (TO CREATE NEW BRANCH)
+git branch -d <BRANCH NAME>			--- (TO DELETE BRANCH)
 
 
+git branch
+# on branch *main
+git checkout -b feature1
+# switched to a new branch *feature1
+git branch
+# *feature1
+#  main
+git checkout main
+# switched to branch "main"
+# feature
+# *main
+
+git checkout -b feature2
+# swithched to a new branch *feature2
+git checkout main
+# we have to chenge another branch to delete
+git branch -d feature2
+# Deleted branch feature2
+#
 
 
 
