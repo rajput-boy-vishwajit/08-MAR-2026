@@ -75,12 +75,46 @@ git push origin main
 
 ## INIT COMMAND 
 # init - used to create a new git repo
-git ini
-git remote add origin <LINK>
+# create a new repo with name - localrepo
+git init
+git remote add origin <GITHUB SSH LINK>
 git remote -v <TO VERITY REMOTE>
 git branch <TO CHECK BRANCH>
 git branch -M main <to rename branch>
 git push origin main
+
+
+cd ..
+mkdir LocalRepo
+cd LocalRepo
+ls -la
+git init
+ls -la
+git status
+git add .
+git status
+git commit -m "Add initial Files"
+git status
+
+git branch
+# *master
+git branch -M main
+# *main - rename the branch
+
+git push origin main
+git status
+
+
+git add .
+git commit -m "Add Readme"
+
+## WORKFLOW - Local Git > GitHub repo >> clone >> changes >> add >> commit >> push.
+
+
+## GIT BRANCHES :
+
+
+
 
 
 
