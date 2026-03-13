@@ -41,6 +41,18 @@ Windows (Git Bash <br>
 Mac (Terminal) <br>
 </p>
 
+<pre>
+git --version
+</pre>
+
+
+<h2><u>Configuring Git</u></h2>
+<pre>
+git config --global user.name "My Name"
+git config --global user.email "someone@email.com
+git config --list
+</pre>
+
 
 **************************
 **************************
@@ -59,10 +71,9 @@ Mac (Terminal) <br>
 
 <h2>Example Git Commands</h2>
 
+
 <pre>
 git status
-git add .
-git commit -m "message"
 </pre>
 
 <hr>
