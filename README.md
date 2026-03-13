@@ -92,6 +92,10 @@ git status
 <p><b>commit - </b> it is the record of change. </p>
 <pre>git commit -m "SOME MESSAGE" </pre>
 
+
+******************************
+
+
 <h2>Push Command</h2>
 <p><b>push - </b> to upload local repo content to remote repo </p>
 <pre>git push origin main </pre>
@@ -105,8 +109,8 @@ git status
 
 
 <h2>Push Command</h2>
-<p><b>add - </b> </p>
-<pre>git add <> </pre>
+<p><b>add - </b>  </p>
+<pre>git add . </pre>
 
 
 
