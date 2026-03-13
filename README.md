@@ -72,11 +72,41 @@ git clone <SOME LINK>
 git status
 </pre>
 
-<h3><u>Untracked</u></h3>
-<h3><u>Modified</u></h3>
-<h3><u>Staged</u></h3>
-<h3>Unmodified</h3>
+<h4>Untracked</h4>
+<p>New files that git dosen't yet track </p>
 
+<h4>Modified</h4>
+<p>Changed </p>
+
+<h4>Staged</h4>
+<p>File is ready to be committed </p>
+
+<h4>Unmodified</h4>
+<p>Unchanged </p>
+
+
+<h2>Add & Commit</2>
+<p><b>add - </b> adds new or changed files in your working directory to the Git staging area.</p>
+<pre>git add <FILE NAME> </pre>
+
+<p><b>commit - </b> it is the record of change. </p>
+<pre>git commit -m "<SOME MESSAGE>" </pre>
+
+<h2>Push Command</2>
+<p><b>push - </b> to upload local repo content to remote repo </p>
+<pre>git push origin main </pre>
+
+
+
+
+
+
+
+
+
+<h2>Push Command</2>
+<p><b>add - </b> </p>
+<pre>git add <> </pre>
 
 
 
