@@ -33,6 +33,15 @@ Version Control System is a tool that helps to track changes in code Git is a <b
 <li>Make our first commit</li>
 </ul>
 
+<h2><u>Setting up Git</u></h2>
+
+<p>
+Visual Studio Code,/n
+Windows (Git Bash)
+Mac (Terminal)
+</p>
+
+
 **************************
 **************************
 
