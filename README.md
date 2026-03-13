@@ -12,9 +12,7 @@ Version Control System is a tool that helps to track changes in code Git is a <b
 </p>
 
 <ul>
-<li>Popular</li>
-<li>free & Open Source</li>
-<li>fast & Scalable</li>
+<li>Popular, free & Open Source, fast & Scalable</li>
 </ul>
 
 <hr>
