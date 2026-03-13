@@ -27,6 +27,11 @@ Version Control System is a tool that helps to track changes in code Git is a <b
 
 <hr>
 
+<h2><u>GitHub Account</u></h2>
+<ul>
+<li>Create a new repository:</li>
+<li>Make our first commit</li>
+</ul>
 
 **************************
 **************************
