@@ -54,6 +54,34 @@ git config --list
 </pre>
 
 
+<h2><u>Clone & Status</u></h2>
+<p>
+<b>Clone - </b> Cloning a repository on our local machine.
+</p>
+
+<pre>
+git clone <SOME LINK>
+</pre>
+
+
+<p>
+<b>Status - </b> displays the state of the code.
+</p>
+
+<pre>
+git status
+</pre>
+
+<h3><u>Untracked</u></h3>
+<h3><u>Modified</u></h3>
+<h3><u>Staged</u></h3>
+<h3>Unmodified</h3>
+
+
+
+
+
+
 **************************
 **************************
 
