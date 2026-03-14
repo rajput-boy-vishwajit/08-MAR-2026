@@ -87,7 +87,7 @@ git status
 
 <h2>Add & Commit</h2>
 <p><b>add - </b> adds new or changed files in your working directory to the Git staging area.</p>
-<pre>git add FILE NAME </pre>
+<pre>git add (FILE NAME) </pre>
 
 <p><b>commit - </b> it is the record of change. </p>
 <pre>git commit -m "SOME MESSAGE" </pre>
