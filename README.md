@@ -123,6 +123,17 @@ git push origin main
 
 
 
+<h2>Init Command</h2>
+<pre>
+git init
+git remote add origin (LINK)
+git remote -v (to verify remote)
+git branch (to check brank) 
+git branch -M main (to rename branch)
+git push origin main
+</pre>
+
+
 
 
 
