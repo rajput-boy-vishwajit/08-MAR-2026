@@ -96,9 +96,12 @@ git status
 ******************************
 
 
-<h2>Push Command</h2>
-<p><b>push - </b> to upload local repo content to remote repo </p>
-<pre>git push origin main </pre>
+<pre><h2>index.html</h2></pre>
+<p><b>index.html - </b> to create index.html file and [29:50] </p>
+<p>hello world</p>
+<pre>git status
+
+</pre>
 
 
 
