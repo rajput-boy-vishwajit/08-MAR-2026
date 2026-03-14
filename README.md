@@ -119,7 +119,7 @@ git push origin main
 
 <h2>Push Command</h2>
 <p><b>push - </b> upload local repo content to remote repo  </p>
-<pre>git push rigin main </pre>
+<pre>git push origin main </pre>
 
 
 
