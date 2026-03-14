@@ -96,10 +96,10 @@ git status
 ******************************
 
 
-<pre><h2>index.html</h2></pre>
+<pre><h2>index.html</h2>
 <p><b>index.html - </b> to create index.html file and [29:50] </p>
 <p>hello world</p>
-<pre>git status
+git status
 
 </pre>
 
