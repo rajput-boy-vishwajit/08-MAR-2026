@@ -101,8 +101,11 @@ git status
 <p>hello world</p>
 git status
 git add index.html
+git add .
 git status
-
+git commit -m "commit message"
+git status
+git push origin main
 
 </pre>
 
@@ -115,7 +118,7 @@ git status
 
 
 <h2>Push Command</h2>
-<p><b>add - </b>  </p>
+<p><b>push - </b> upload   </p>
 <pre>git add . </pre>
 
 
