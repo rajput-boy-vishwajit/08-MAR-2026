@@ -153,6 +153,13 @@ git push origin main
 
 
 
+<h2>MERGING CODE With feature BRANCH:</h2>
+
+<h2>PULL COMMAND:</h2>
+
+<h2>RESOLVING MERGE CONFLICTS:</h2>
+
+
 
 **************************
 **************************
