@@ -1,3 +1,4 @@
+
 <h1 align="center">Git & GitHub in One Shot</h1>
 
 <p align="center">
@@ -131,6 +132,21 @@ git remote -v (to verify remote)
 git branch (to check brank) 
 git branch -M main (to rename branch)
 git push origin main
+</pre>
+
+
+
+
+<h2><REPO: LocalRepo/h2>
+<pre>
+index.html
+style.css
+README.md
+</pre>
+
+<pre>
+git init
+git 
 </pre>
 
 
