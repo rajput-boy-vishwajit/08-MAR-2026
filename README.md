@@ -150,7 +150,12 @@ git push origin main
 </pre>
 
 <h2>GIT BRANCHS:</h2>
-
+<pre>
+git branch
+git branch -M main
+git checkout <BRANCH_NAME>
+git 
+</pre>
 
 
 <h2>MERGING CODE With feature BRANCH:</h2>
