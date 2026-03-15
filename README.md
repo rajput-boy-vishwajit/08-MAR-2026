@@ -137,7 +137,7 @@ git push origin main
 
 
 
-<h2><REPO: LocalRepo/h2>
+<h2>REPO: LocalRepo</h2>
 <pre>
 index.html
 style.css
@@ -146,9 +146,15 @@ README.md
 
 <pre>
 git init
-git 
+git remote add origin <LINK>
+git remote -v
 </pre>
 
+<h2>BRANCH:</h2>
+<pre>
+git branch
+
+</pre>
 
 
 
