@@ -147,8 +147,9 @@ git remote -v
 git branch
 git branch -M main
 git push origin main
-
 </pre>
+
+<h2>GIT BRANCHS:</h2>
 
 
 
