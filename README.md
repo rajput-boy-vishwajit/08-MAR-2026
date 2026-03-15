@@ -169,9 +169,11 @@ git branch -d feature2
 
 <h3>
 main<br>
-feature<br>
+*feature<br>
 </h3>
-
+<p>
+- Changes New added into <b>*feature1 branch modified</b>
+</p>
 <h2>MERGING CODE With feature BRANCH:</h2>
 
 <h2>PULL COMMAND:</h2>
