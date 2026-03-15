@@ -156,9 +156,21 @@ git branch -M main
 git checkout <BRANCH_NAME>
 git checkout -b <NEW_BRANCH_NAME>
 git branch -d <BRANCH_NAME>
- 
 </pre>
 
+<h4>NEW BRANCH CREATED:</h4>
+<pre>
+git checkout -b feature1
+git checkout main
+git checkout -b feature2
+git checkout main
+git branch -d feature2
+</pre>
+
+<h3>
+main<br>
+feature<br>
+</h3>
 
 <h2>MERGING CODE With feature BRANCH:</h2>
 
