@@ -172,7 +172,7 @@ main<br>
 *feature<br>
 </h3>
 <p>
-- Changes New added into <b>*feature1 branch modified</b>
+- Changes New added into <b>*feature1</b> branch <b>modified</b>
 </p>
 <h2>MERGING CODE With feature BRANCH:</h2>
 
