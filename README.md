@@ -174,7 +174,20 @@ main<br>
 <p>
 - Changes New added into <b>*feature1</b> branch <b>modified</b>
 </p>
+<pre>
+git add .
+git commit -m "New feature1 added"
+git checkout main
+git checkout feature1
+git diff <BRANCH_NAME>
+</pre>
+
 <h2>MERGING CODE With feature BRANCH:</h2>
+<pre>
+git diff <BRANCH_NAME>
+git merge <BRANCH_NAME>
+git diff main
+</pre>
 
 <h2>PULL COMMAND:</h2>
 
