@@ -154,7 +154,9 @@ git push origin main
 git branch
 git branch -M main
 git checkout <BRANCH_NAME>
-git 
+git checkout -b <NEW_BRANCH_NAME>
+git branch -d <BRANCH_NAME>
+ 
 </pre>
 
 
