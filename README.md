@@ -110,14 +110,6 @@ git push origin main
 
 </pre>
 
-
-
-
-
-
-
-
-
 <h2>Push Command</h2>
 <p><b>push - </b> upload local repo content to remote repo  </p>
 <pre>git push origin main </pre>
@@ -153,6 +145,8 @@ git remote -v
 <h2>BRANCH:</h2>
 <pre>
 git branch
+git branch -M main
+git push origin main
 
 </pre>
 
